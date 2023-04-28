@@ -617,6 +617,7 @@ body{
 
 .slick-slide img{
     display: inline;
+    width: 85%;
 }
 
 .products{
@@ -640,4 +641,72 @@ body{
 
 .banner{
     margin-bottom: 80px;
+}
+
+.footer{
+    background: #F0F0F4;
+}
+
+.footer__bottom{
+    padding: 46px 0 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__bottom-link{
+    line-height: 12px;
+    color: #48494D;
+    font-size: 10px;
+    margin: 0 40px;
+}
+
+.footer__top{
+    padding-top: 43px;
+}
+
+.footer__top-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__top-newsletter{
+    width: 295px;
+}
+
+.footer__top-title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.footer__form{
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-form__input{
+    background-color: #fff;
+    border: none;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.footer-form__input::placeholder{
+    color: #C4C4C4;
+    padding: 0 12px;
+}
+
+.footer-form__btn{
+    text-transform: uppercase;
+    padding: 10px 16px;
+    border: none;
+    background-color: #1C62CD;
+    color: #fff;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    font-weight: 600;
+    font-family: 'SFProDisplay-Semibold', sans-serif;
 }
